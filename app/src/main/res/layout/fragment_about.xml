@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="11dp"></com.github.barteksc.pdfviewer.PDFView>
+
+
+        <ImageView
+            android:id="@+id/imageViewLinkedIn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/pdfView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/linkedin" />
+
+        <ImageView
+            android:id="@+id/imageViewInstagram"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/pdfView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="104dp"
+            android:src="@drawable/instagram" />
+
+
+</RelativeLayout>
